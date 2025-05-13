@@ -18,28 +18,10 @@
       margin-top: 20px;
       font-size: 32px;
     }
-    .turntable {
-      position: relative;
-      width: 320px;
-      height: 320px;
+    .image {
       margin: 30px auto;
-      background-image: url('tourne_disque_sans_disque.png');
-      background-size: cover;
-      background-position: center;
-    }
-    .disc {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 100px;
-      height: 100px;
-      transform: translate(-50%, -50%);
-      border-radius: 50%;
-      animation: spin 6s linear infinite;
-    }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+      width: 320px;
+      height: auto;
     }
     .video {
       margin-top: 30px;
@@ -48,9 +30,7 @@
 </head>
 <body>
   <h1>Je t'accuse</h1>
-  <div class="turntable">
-    <img src="logo_pauline.png" class="disc" alt="Disque tournant" />
-  </div>
+  <img src="tourne_disque_mymetoo_grand.png" class="image" alt="Tourne-disque" />
   <div class="video">
     <iframe width="320" height="180" src="https://www.youtube.com/embed/U3_djdjsI5Q"
       title="Je t'accuse - Suzane" frameborder="0"
