@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Je t'accuse - Pauline</title>
+  <title>Je t'accuse - MyMeeToo</title>
   <style>
     body {
       background-color: #111;
@@ -19,37 +19,30 @@
       font-size: 32px;
     }
     .turntable {
-      position: relative;
-      width: 300px;
-      height: 300px;
-      margin: auto;
-      border-radius: 50%;
-      background: #000;
-      border: 10px solid #333;
-      animation: spin 6s linear infinite;
+      margin: 30px auto;
+      max-width: 90%;
+      animation: spin 10s linear infinite;
+      width: 100%;
+      max-width: 600px;
     }
     .turntable img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 80px;
-      height: 80px;
-      transform: translate(-50%, -50%);
-      border-radius: 50%;
-    }
-    @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
     }
     .video {
-      margin-top: 40px;
+      margin: 40px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
   </style>
 </head>
 <body>
   <h1>Je t'accuse</h1>
   <div class="turntable">
-    <img src="logo_pauline.png" alt="Logo Pauline" />
+    <img src="tourne_disque_mymetoo_grand.png" alt="Tourne-disque MyMeeToo avec logo Pauline" />
   </div>
   <div class="video">
     <iframe width="320" height="180" src="https://www.youtube.com/embed/U3_djdjsI5Q."
