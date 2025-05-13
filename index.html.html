@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Je t'accuse - Suzane</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .turntable {
+      margin-top: 30px;
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%;
+      background: #000;
+      animation: spin 6s linear infinite;
+      border: 8px solid #333;
+    }
+    .turntable img {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+    @keyframes spin {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+    }
+    .video {
+      margin-top: 40px;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+    h2 {
+      font-size: 20px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <h1>Je t'accuse</h1>
+  <h2>Suzane</h2>
+  <div class="turntable">
+    <img src="https://i.ibb.co/m4KTK5y/logo-pauline.png" alt="Logo Pauline"/>
+  </div>
+  <div class="video">
+    <iframe width="300" height="169" src="https://www.youtube.com/embed/tDq3fNewFHQ"
+      title="Je t'accuse - Suzane" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+</body>
+</html>
