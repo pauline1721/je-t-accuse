@@ -8,44 +8,41 @@
   <style>
     body {
       background-color: #111;
-      color: white;
+      color: #fff;
       font-family: Arial, sans-serif;
       text-align: center;
       margin: 0;
       padding: 0;
     }
     h1 {
+      margin-top: 20px;
+      font-size: 24px;
       font-style: italic;
-      color: violet;
-      font-size: 2em;
-      margin: 1.5em 0 1em;
+      color: #cc66ff;
     }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .turntable {
-      width: 100%;
-      max-width: 600px;
+    .image {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 400px;
       height: auto;
     }
+    .video {
+      margin: 20px auto;
+    }
     iframe {
-      width: 100%;
-      max-width: 600px;
-      height: 315px;
-      margin-top: 20px;
-      border: none;
+      width: 90%;
+      max-width: 400px;
+      height: 225px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Un Souffle Juste Pour Toi</h1>
-    <img src="tourne_disque_mymetoo_grand.png" alt="Tourne-disque" class="turntable" />
-    <iframe 
-      src="https://www.youtube.com/embed/I3W2SKYV4n4?rel=0" 
-      title="Suzane - Je t'accuse (Clip officiel)" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  <h1>Un Souffle Juste Pour Toi</h1>
+  <img src="tourne_disque_mymetoo_grand.png" class="image" alt="Tourne-disque" />
+  <div class="video">
+    <iframe src="https://www.youtube.com/embed/U3_djdjsI5Q"
+      title="Suzane - Je t'accuse" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
   </div>
